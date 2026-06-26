@@ -446,7 +446,7 @@ html[lang="en"] .review-text{
 
 .landing-phone{
   margin:8px 0 4px;
-  font-size:22px;
+  font-size:30px;
   font-weight:900;
   letter-spacing:1px;
   color:rgba(255,255,255,.9);
@@ -783,7 +783,7 @@ html[lang="en"] .review-text{
   .glass{ margin-top:96px; }
 
   .landing-phone{
-    font-size:22px; /* slightly smaller so numbers fit on one line */
+    font-size:26px; /* slightly smaller so numbers fit on one line */
     white-space:nowrap;
     display:inline-block;
   }
@@ -825,7 +825,7 @@ img, svg, picture {
 @media (max-width: 520px){
   .landing-actions{ display:flex; flex-direction:column; gap:12px; align-items:center; }
   .landing-btn{ min-width:unset; width:100%; padding:12px 16px; box-shadow:none; }
-  .landing-title{ font-size:clamp(26px, 8vw, 40px); }
+  .landing-title{ font-size:clamp(40px, 8vw, 40px); }
 }
 
 /* ensure touch targets are large enough on very small screens */
